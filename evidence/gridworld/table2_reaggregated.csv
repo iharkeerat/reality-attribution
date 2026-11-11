@@ -1,0 +1,13 @@
+protected_channel_contract,hypothesis_pair,unresolved_comparisons,total_comparisons
+landmark_identity,i_o_f2 vs i_o_f4,114,32736
+landmark_identity,i_o_f2 vs m_lag,92,32736
+landmark_identity,i_o_f4 vs m_lag,23263,32736
+none,i_o_f2 vs i_o_f4,114,32736
+none,i_o_f2 vs m_lag,114,32736
+none,i_o_f4 vs m_lag,32736,32736
+wall_contact,i_o_f2 vs i_o_f4,114,32736
+wall_contact,i_o_f2 vs m_lag,114,32736
+wall_contact,i_o_f4 vs m_lag,15900,32736
+wall_contact+landmark_identity,i_o_f2 vs i_o_f4,114,32736
+wall_contact+landmark_identity,i_o_f2 vs m_lag,92,32736
+wall_contact+landmark_identity,i_o_f4 vs m_lag,11444,32736

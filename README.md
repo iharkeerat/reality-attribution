@@ -6,7 +6,7 @@ An independent research project investigating whether a reinforcement-learning a
 
 > **Research question:** When different causal mechanisms produce the same agent-visible history, what additional evidence or intervention makes them distinguishable?
 
-**Project status:** Completed bounded GridWorld analysis with an archived, verified enumeration dataset. The larger LunarLander-v3 investigation is ongoing. This is a research project, **not a claimed peer-reviewed publication or a complete stochastic-control study**.
+**Project status:** Completed bounded GridWorld analysis with an archived, verified enumeration dataset. The larger LunarLander-v3 investigation is ongoing. This is a research project, **not a peer-reviewed publication or a completed stochastic-control study**.
 
 ## The problem
 
@@ -25,9 +25,7 @@ The key distinction is between *authentic histories* retained by the experimente
 
 The registered 5 × 5 GridWorld experiment covers **24 known non-goal initial states**, **1,364 open-loop action sequences** of lengths 1–5, **three hypothesis pairs**, and **four protected-field contracts**:
 
-[
-24 	imes 1{,}364 	imes 3 	imes 4 = mathbf{392{,}832 comparisons}
-]
+**24 × 1,364 × 3 × 4 = 392,832 exact comparisons.**
 
 Three bounded findings motivate the work:
 

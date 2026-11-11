@@ -1,0 +1,29 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local development outputs
+logs/
+scratch/
+tmp/
+results/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Machine-specific and secret files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

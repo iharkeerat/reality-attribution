@@ -1,0 +1,2 @@
+# Preserve the exact byte sequence (including CRLF) of the hash-registered artifact.
+evidence/gridworld/identifiability_enumeration.csv -text

@@ -1,0 +1,32 @@
+name: GridWorld evidence integrity
+
+on:
+  push:
+    paths:
+      - "evidence/gridworld/**"
+      - "tools/verify_gridworld_enumeration.py"
+      - "tests/test_gridworld_evidence.py"
+      - ".github/workflows/gridworld-evidence.yml"
+      - ".gitattributes"
+  pull_request:
+    paths:
+      - "evidence/gridworld/**"
+      - "tools/verify_gridworld_enumeration.py"
+      - "tests/test_gridworld_evidence.py"
+      - ".github/workflows/gridworld-evidence.yml"
+      - ".gitattributes"
+
+jobs:
+  verify-gridworld-enumeration:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check original CSV hash and all reported counts
+        run: python tools/verify_gridworld_enumeration.py
+      - name: Run evidence verification regression tests
+        run: python -m unittest discover -s tests -p test_gridworld_evidence.py -v
