@@ -58,6 +58,7 @@ The verifier checks the registered **SHA-256**, experiment structure, coverage, 
 
 ## Research documentation
 
+- [Two-minute reviewer guide](docs/REVIEWER_GUIDE.md) — question, exact evidence checks and limitations
 - [Research overview](docs/RESEARCH_OVERVIEW.md) — motivation, causal hypotheses, and study design
 - [GridWorld findings](docs/GRIDWORLD_FINDINGS.md) — complete finite-domain table and assumptions
 - [Claims and evidence](docs/RESEARCH_CLAIMS.md) — what each claim is supported by
